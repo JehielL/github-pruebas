@@ -15,13 +15,9 @@
                     <li><a href="#container-info">Inicio</a></li>
                     <li><a href="https://formacion.fundacionadecco.org/">Cursos</a></li>
                     <li><a href="">Tareas Pendientes</a></li>
-                    <li><a href="">Actividades Diarias</a></li>
+                    <li><a href="https://certidevs.com/">Actividades Diarias</a></li>
                 </ul>
-                
             </nav>
-            
-            
-            
         </div>
         <div id="cronometro" class="cronometro"></div>
     </section>
@@ -47,20 +43,18 @@
                     <ul>Entrar al archivo que deseamos editar</ul>
                     <ul>Realizar cambios necesarios</ul>
                     <ul>Click Commit Change Botón Verde</ul>
-                    <h4 class ="titulo-descripcion">Resolución de problemas en Github</h4>
+                    <h4 class="titulo-descripcion">Resolución de problemas en Github</h4>
                     <ul>Resolución de problemas en la misma línea de código</ul>
                     <ul>Resolución de problema varios archivos</ul>
                 </li>
             </div>
         </div>
-
         <div class="container-info2">
             <h1 class="titulo">CURSO JAVA</h1>
-            <h2>PRACTICA GIT COMMITS</h2>
-            <h4>Pendientes para siguiente clase.</h4>
+            <h2>PRACTICA GIT COMMITS</h4>
             <li class="lista1">
                 <h4 class="titulo-descripcion">Github Desktop:</h4>
-                <ul> <a href="https://desktop.github.com/">Descargar Github Desktop</a></ul>
+                <ul><a href="https://desktop.github.com/">Descargar Github Desktop</a></ul>
                 <ul>Copiar repositorios de clases</ul>
                 <ul>Probar usos</ul>
                 <h4 class="titulo-descripcion">Ramas / Branchs:</h4>
@@ -70,10 +64,8 @@
                 <h4 class="titulo-descripcion">Autoevaluacion:</h4>
                 <ul>Realizar Test-autoevaluación plataforma Adecco</ul>
             </li>
-            
         </div>
-
-            <div class="container-info">
+        <div class="container-info">
             <h1 class="titulo">CURSO JAVA</h1>
             <h2>PRACTICA GIT COMMITS</h2>
             <h4>Prueba de clonar repositorios, hacer push y realizar cambios.</h4>
@@ -94,16 +86,13 @@
                     <ul>Entrar al archivo que deseamos editar</ul>
                     <ul>Realizar cambios necesarios</ul>
                     <ul>Click Commit Change Botón Verde</ul>
-                    <h4 class ="titulo-descripcion">Resolución de problemas en Github</h4>
+                    <h4 class="titulo-descripcion">Resolución de problemas en Github</h4>
                     <ul>Resolución de problemas en la misma línea de código</ul>
                     <ul>Resolución de problema varios archivos</ul>
                 </li>
             </div>
         </div>
-
-        
     </section>
-    
     <section class="container-wrapper">
         <div class="container-info">
             <h1 class="titulo">CURSO JAVA</h1>
@@ -126,20 +115,19 @@
                     <ul>Entrar al archivo que deseamos editar</ul>
                     <ul>Realizar cambios necesarios</ul>
                     <ul>Click Commit Change Botón Verde</ul>
-                    <h4 class ="titulo-descripcion">Resolución de problemas en Github</h4>
+                    <h4 class="titulo-descripcion">Resolución de problemas en Github</h4>
                     <ul>Resolución de problemas en la misma línea de código</ul>
                     <ul>Resolución de problema varios archivos</ul>
                 </li>
             </div>
         </div>
-
         <div class="container-info2">
             <h1 class="titulo">CURSO JAVA</h1>
             <h2>PRACTICA GIT COMMITS</h2>
             <h4>Pendientes para siguiente clase.</h4>
             <li class="lista1">
                 <h4 class="titulo-descripcion">Github Desktop:</h4>
-                <ul> <a href="https://desktop.github.com/">Descargar Github Desktop</a></ul>
+                <ul><a href="https://desktop.github.com/">Descargar Github Desktop</a></ul>
                 <ul>Copiar repositorios de clases</ul>
                 <ul>Probar usos</ul>
                 <h4 class="titulo-descripcion">Ramas / Branchs:</h4>
@@ -149,10 +137,8 @@
                 <h4 class="titulo-descripcion">Autoevaluacion:</h4>
                 <ul>Realizar Test-autoevaluación plataforma Adecco</ul>
             </li>
-            
         </div>
-
-            <div class="container-info">
+        <div class="container-info">
             <h1 class="titulo">CURSO JAVA</h1>
             <h2>PRACTICA GIT COMMITS</h2>
             <h4>Prueba de clonar repositorios, hacer push y realizar cambios.</h4>
@@ -173,48 +159,22 @@
                     <ul>Entrar al archivo que deseamos editar</ul>
                     <ul>Realizar cambios necesarios</ul>
                     <ul>Click Commit Change Botón Verde</ul>
-                    <h4 class ="titulo-descripcion">Resolución de problemas en Github</h4>
+                    <h4 class="titulo-descripcion">Resolución de problemas en Github</h4>
                     <ul>Resolución de problemas en la misma línea de código</ul>
                     <ul>Resolución de problema varios archivos</ul>
                 </li>
             </div>
         </div>
-
-        
     </section>
-
-
-    <script>
-      // Fecha objetivo: 30 de mayo de este año
-      const fechaObjetivo = new Date(2024 , 4, 30);
-
-      // Función para actualizar el cronómetro
-      function actualizarCronometro() {
-        const ahora = new Date();
-        const diferencia = fechaObjetivo - ahora;
-
-        // Calcula los días, horas, minutos y segundos restantes
-        const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
-        const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
-        const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
-
-        // Muestra el cronómetro en un elemento HTML
-        document.getElementById("cronometro").innerHTML =
-          dias + "d " + horas + "h " + minutos + "m " + segundos + "s";
-
-        // Verifica si la fecha objetivo ha pasado
-        if (diferencia <= 0) {
-          document.getElementById("cronometro").innerHTML = "¡Tiempo cumplido!";
-        }
-      }
-
-      // Actualiza el cronómetro cada segundo
-      setInterval(actualizarCronometro, 1000);
-
-      // Llama a la función para asegurarse de que el cronómetro se actualice de inmediato
-      actualizarCronometro();
-    </script>
+    <footer>
+        <img src="./logo-tech2.png" alt="" class="logo-tech">
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/jehiel-linarez-vargas-9b57b3225/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/jehiell/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="/finalDate.js"></script>
 </body>
 </html>
-    
