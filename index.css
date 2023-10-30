@@ -140,19 +140,9 @@
         text-decoration: none;
         color: #fff;
         display: inline-block;
-        margin: 5px;
+        margin: 10px;
         font-size: 26px;
       }
-
-      footer .redes a {
-        text-decoration: none;
-        color: #fff;
-        display: inline-block;
-        margin: 5px;
-        font-size: 26px;
-      }
-
-
       .logo-tech {
         position: relative;
         width: 300px;
