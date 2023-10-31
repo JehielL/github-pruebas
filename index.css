@@ -17,6 +17,8 @@
         margin: 10px;
         margin-top: 100px;
         transition: box-shadow 0.3s;
+
+        width: 10px;
     
     }
 
@@ -177,4 +179,9 @@
         opacity: 0.7;
         background-color: rgba(0, 0, 0, 0.7); 
     }
-     
+
+    .buttom1{
+    background-color: #336699;
+    border-radius: 30px;
+    height: 30px;
+    }
